@@ -18,13 +18,13 @@ return(
                </div>
         </NavLink>
                <div className="flex flex-col">
-                <Button text={(<b className="flex items-center justify-between capitalize">students <FaChevronDown /></b>)} clickFunc={()=>setDropDownOpen(!dropDownOpen)} className="w-full hover:shadow-none text-start"/>
+                <Button text={(<b className="flex items-center justify-between capitalize dark:text-white text-black">students <FaChevronDown /></b>)} clickFunc={()=>setDropDownOpen(!dropDownOpen)} className="w-full hover:shadow-none text-start"/>
                 <div className={ dropDownOpen ? "flex flex-col p-4 text-sm" : 'hidden'}>
                     <NavLink to="/students">View All Students</NavLink>
                     <NavLink to="/add-student">Add Student</NavLink>
                     <NavLink to="/students/profile">Student Profile</NavLink>
                 </div>
-                <Button text={(<b className="flex items-center justify-between capitalize">teachers <FaChevronDown /></b>)} clickFunc={()=>setDropDownOpen(!dropDownOpen)} className="w-full hover:shadow-none text-start"/>
+                <Button text={(<b className="flex items-center justify-between capitalize dark:text-white text-black">teachers <FaChevronDown /></b>)} clickFunc={()=>setDropDownOpen(!dropDownOpen)} className="w-full hover:shadow-none text-start"/>
                 <div className={ dropDownOpen ? "flex flex-col p-4 text-sm" : 'hidden'}>
                     <NavLink to="/teachers">View All Teachers</NavLink>
                     <NavLink to="/add-teacher">Add Teacher</NavLink>
