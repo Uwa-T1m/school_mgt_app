@@ -9,7 +9,7 @@ const TeacherProfile = () => {
             <div className="flex flex-col relative">
                 <div className="h-[200px] bg-sky-500 rounded-lg"></div>
                 <div className="absolute rounded-full h-32 w-32 border-8 flex bottom-[-50px] left-24 dark:border-slate-800 border-white">
-                    <img src="../../../assets/favicon.ico" className="object-cover rounded-full" />
+                    <img src="/assets/favicon.ico" className="object-cover rounded-full" />
                 </div>
                 <FaEllipsisH className="absolute right-16 bottom-[-40px]" />
             </div>

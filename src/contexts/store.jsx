@@ -6,7 +6,7 @@ const Context = createContext()
 export const ContextProvider = ({ children }) => {
     const [activeMenu, setActiveMenu] = useState(false)
     const [darkMode, setDarkMode] = useState(undefined)
-    const [file, setFile] = useState('../../../assets/favicon.ico')
+    const [file, setFile] = useState('/assets/favicon.ico')
 
 
     const handleUpload = (e) => {
