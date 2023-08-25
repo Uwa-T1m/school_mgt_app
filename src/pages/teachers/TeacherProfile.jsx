@@ -7,9 +7,9 @@ const TeacherProfile = () => {
   return (
     <div className="flex gap-4">
         <div className="w-4/5">
-        <div className="w-[90%] h-auto m-auto rounded-lg mb-7 bg-white dark:bg-slate-800">
+        <div className="w-[90%] h-auto m-auto rounded-md mb-7 bg-white dark:bg-slate-800">
             <div className="flex flex-col relative">
-                <div className="h-[200px] bg-sky-500 rounded-lg"></div>
+                <div className="h-[140px] bg-sky-500 rounded-lg"></div>
                 <div className="absolute rounded-full h-32 w-32 border-8 flex bottom-[-50px] left-24 dark:border-slate-800 border-white">
                     <img src={Logo} className="object-cover rounded-full" />
                 </div>
@@ -39,23 +39,23 @@ const TeacherProfile = () => {
             </div>
         </div>
         <div className="w-[90%] p-8 h-auto m-auto rounded-lg mb-7 bg-white dark:bg-slate-800">
-            <h3 className="text-xl font-medium text-purple-700 mb-2">About</h3>
+            <h3 className="text-xl font-medium text-purple-700 dark:text-white mb-2">About</h3>
             <p className="text-gray-400 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore eos porro odit? <br /> Eum molestiae temporibus harum autem inventore vel placeat excepturi magnam nostrum ad, at molestias quisquam enim! Quidem tempore consequatur similique et nostrum.</p>
         <div className="mb-4">
-          <h3 className="text-xl font-medium text-purple-700 mb-2">Education:</h3>
+          <h3 className="text-xl font-medium text-purple-700 dark:text-white mb-2">Education:</h3>
           <ul  className="list-disc marker:text-purple-700 marker:text-lg">
             <span>
-              <li className="font-medium text-md text-purple-700 py-1"><h5>History Major, University Akademi Historia</h5></li>
+              <li className="font-medium text-md text-purple-700 dark:text-white py-1"><h5>History Major, University Akademi Historia</h5></li>
               <small className="text-gray-400">2013-2017</small>
             </span>
             <span>
-              <li className="font-medium text-md text-purple-700 py-1"><h5>Master of History, University Akademi Historia</h5></li>
+              <li className="font-medium text-md text-purple-700 dark:text-white py-1"><h5>Master of History, University Akademi Historia</h5></li>
               <small className="text-gray-400">2013-2017</small>
             </span>
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-medium text-purple-700 mb-2">Expertise:</h3>
+          <h3 className="text-xl font-medium text-purple-700 dark:text-white mb-2">Expertise:</h3>
           <p className="text-gray-400">World HIstory, Philosophy, Prehistoric, Culture, Ancient</p>
         </div>
         </div>
