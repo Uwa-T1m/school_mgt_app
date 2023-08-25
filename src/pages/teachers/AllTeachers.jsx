@@ -1,5 +1,5 @@
 import { Header, Button, Card } from '../../components'
-import { BsSearch, BsEnvelope } from 'react-icons/bs'
+import { BsSearch,  } from 'react-icons/bs'
 import { FaPlus } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import Logo from '../../../assets/favicon.ico'
@@ -24,7 +24,7 @@ const AllTeachers = () => {
           <Link to="/add-student"><Button className="bg-purple-700" borderRadius="5px" text={(<b className="flex items-center gap-2"> <FaPlus /> Add Student</b>)} /></Link>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-3 w-[90%] m-auto">
+      <div className="grid grid-cols-4  gap-3 w-[90%] m-auto">
         <Card title="Munaroh Steffani" text="Teacher" tag="science">
           <img src={Logo} className="rounded-full" />
         </Card>
