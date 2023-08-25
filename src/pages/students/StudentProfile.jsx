@@ -4,8 +4,9 @@ import { FaEllipsisH, FaMapMarkedAlt, FaUser, FaPhoneAlt } from "react-icons/fa"
 
 const StudentProfile = () => {
     return (
-        <div>
-            <div className="w-[90%] h-auto m-auto rounded-lg mb-7 bg-white dark:bg-slate-800">
+        <div className="flex gap-4 w-full">
+        <div className="w-4/5">
+        <div className="w-[90%] h-auto m-auto rounded-lg mb-7 bg-white dark:bg-slate-800">
                 <div className="flex flex-col relative">
                     <div className="h-[200px] bg-sky-500 rounded-lg"></div>
                     <div className="absolute rounded-full h-32 w-32 border-8 flex bottom-[-50px] left-24 dark:border-slate-800 border-white">
@@ -73,13 +74,16 @@ const StudentProfile = () => {
                     </table>
                 </div>
             </div>
-            <div className="w-[90%] p-4 h-auto m-auto rounded-lg bg-white dark:bg-slate-800">
-<h4 className="text-purple-700 font-medium text-2xl p-4">Schedule Details</h4>
-<b className="text-gray-400 font-normal px-4 py-2">Thursday, 10th April, 2022</b>
+            
+        </div>
+        <div className="w-1/5">
+        <div className="w-[90%] p-4 h-auto m-auto rounded-lg bg-white dark:bg-slate-800">
+<h4 className="text-purple-700 font-medium text-base p-4">Schedule Details</h4>
+<b className="text-gray-400 font-normal px-4 py-2 text-sm">Thursday, 10th April, 2022</b>
 </div>
 
 <div className="mt-7 w-full">
-<div className="grid grid-cols-2 w-[90%] m-auto gap-4">
+<div className="grid grid-cols-1 w-[90%] m-auto gap-4">
 <div className="p-4 border-l-4 border-purple-700 rounded-md dark:bg-slate-800 bg-white h-auto">
     <div className="mb-4">
     <h4 className="text-purple-700 text-xl font-medium">Basic Algorithim</h4>
@@ -135,6 +139,7 @@ const StudentProfile = () => {
 </div>
 </div>
 
+        </div>
         </div>
     )
 }
