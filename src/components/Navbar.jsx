@@ -66,7 +66,7 @@ const Navbar = () => {
                 />
                 <Link to="/teachers/profile">
                     <div className='h-8 w-8'>
-                        <img src="/assets/favicon.ico" alt="profile-pic" className='object-cover rounded-full h-[inherit] w-[inherit]' />
+                        <img src={Logo} alt="profile-pic" className='object-cover rounded-full h-[inherit] w-[inherit]' />
                     </div>
                 </Link>
             </div>
