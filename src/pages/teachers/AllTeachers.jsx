@@ -2,6 +2,8 @@ import { Header, Button, Card } from '../../components'
 import { BsSearch, BsEnvelope } from 'react-icons/bs'
 import { FaPlus } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
+import Logo from '../../../assets/favicon.ico'
+
 
 const AllTeachers = () => {
   return (
@@ -24,28 +26,28 @@ const AllTeachers = () => {
       </div>
       <div className="grid grid-cols-2 gap-3 w-[90%] m-auto">
         <Card title="Munaroh Steffani" text="Teacher" tag="science">
-          <img src="../../../assets/favicon.ico" className="rounded-full" />
+          <img src={Logo} className="rounded-full" />
         </Card>
         <Card title="Munaroh Steffani" text="Teacher" tag="art">
-          <img src="../../../assets/favicon.ico" className="rounded-full" />
+          <img src={Logo} className="rounded-full" />
         </Card>
         <Card title="Munaroh Steffani" text="Teacher" tag="art">
-          <img src="../../../assets/favicon.ico" className="rounded-full" />
+          <img src={Logo} className="rounded-full" />
         </Card>
         <Card title="Munaroh Steffani" text="Teacher" tag="art">
-          <img src="../../../assets/favicon.ico" className="rounded-full" />
+          <img src={Logo} className="rounded-full" />
         </Card>
         <Card title="Munaroh Steffani" text="Teacher" tag="art">
-          <img src="../../../assets/favicon.ico" className="rounded-full" />
+          <img src={Logo} className="rounded-full" />
         </Card>
         <Card title="Munaroh Steffani" text="Teacher" tag="art">
-          <img src="../../../assets/favicon.ico" className="rounded-full" />
+          <img src={Logo} className="rounded-full" />
         </Card>
         <Card title="Munaroh Steffani" text="Teacher" tag="art">
-          <img src="../../../assets/favicon.ico" className="rounded-full" />
+          <img src={Logo} className="rounded-full" />
         </Card>
         <Card title="Munaroh Steffani" text="Teacher" tag="art">
-          <img src="../../../assets/favicon.ico" className="rounded-full" />
+          <img src={Logo} className="rounded-full" />
         </Card>
       </div>
     </div>
