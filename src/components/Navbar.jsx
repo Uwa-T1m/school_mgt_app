@@ -1,4 +1,4 @@
-import Logo from '../../assets/favicon.ico'
+import Logo from '../../assets/favicon.ico' 
 import { useEffect } from 'react'
 import { FaAlignLeft } from 'react-icons/fa'
 import { BsSun, BsMoon, BsSearch, BsBell } from 'react-icons/bs'
